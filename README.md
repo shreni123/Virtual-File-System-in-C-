@@ -5,7 +5,7 @@
 
 * VFS allows client to access different types of concrete file systems in a uniform way. We are making files in which we will be using VIRTUAL FILE SYSTEM. The functionalities of   our virtual file management system includes listing file, creating new file, searching for a file, deleting file and search for a keyword in a file.
 
--- SIMPLE ARCHITECTURE --
+#### SIMPLE ARCHITECTURE 
 
 * File systems provide easy access to the storage by storing, locating, and retrieving data easily. A file system has two different design problems.
 
@@ -21,7 +21,7 @@
 
 * Finally, the logical file system manages metadata information. Metadata includes all of the filesystem structure except the actual data (or contents of the files). The logical     file system manages the directory structure to provide the file-organization module with the information the latter needs, given a symbolic file name.
 
--- TO RUN THE CODE --
+#### TO RUN THE CODE 
 
   -> g++ file.cpp -o l.out
 
